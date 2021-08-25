@@ -1,1 +1,1 @@
-web: gunicorn ayomide_resume.wsgi
+web gunicorn ayomide_resume:application --log-file -
